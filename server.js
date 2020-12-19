@@ -23,7 +23,7 @@ app.use(express.json());
 //make public folder accesible to the client
 app.use(express.static("public"));
 
-// ================================================================================
+//APP.USE(EXPRESS.STATIC(PATH.JOIN(__DIRNAME)))================================================================================
 // ROUTER
 // The below points our server to a series of "route" files.
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
