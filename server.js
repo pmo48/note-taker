@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 //make public folder accesible to the client
-// app.use(express.static("public"));
+// might need to add "/public" vs. just public, but should also do it ;
 app.use(express.static(path.join(__dirname,"public")));
 
 require("./routes/apiRoutes")(app);
