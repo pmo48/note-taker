@@ -1,10 +1,12 @@
 {
-  "name": "express",
+  "name": "note-taker",
   "version": "1.0.0",
   "description": "Express",
   "main": "server.js",
   "dependencies": {
     "expres": "^0.0.5",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
     "path": "^0.12.7",
     "uuid": "^3.4.0",
     "uuidv4": "^6.2.6"
