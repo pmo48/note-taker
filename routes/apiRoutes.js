@@ -1,11 +1,8 @@
 
-// const util = require("util");
+const util = require("util");
 const fs = require("fs");
-// const uuidv1 = require("uuidv4");
 const { v4: uuidv4 } = require('uuid');
 var noteData = require("../db/db");
-
-
 
 // const readNotesSync = util.promisify(fs.readFile);
 // const writeNotesSync = util.promisify(fs.writeFile);
