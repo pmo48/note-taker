@@ -1,8 +1,4 @@
-// ===============================================================================
-// LOAD DATA
-// We are linking our routes to a series of "data" sources.
-// These data sources hold arrays of information on table-data, waitinglist, etc.
-// ===============================================================================
+
 // const util = require("util");
 const fs = require("fs");
 // const uuidv1 = require("uuidv4");
@@ -30,11 +26,7 @@ module.exports = function(app) {
   app.get("/api/notes", function(req, res) {
     //get the data
     res.json(noteData);
-    //brian's code
-    // readNotes.then((data) => {
-    //   //send the data
-    //   res.json(data);
-    // });
+
   });
 
   app.post("/api/notes", function(req, res) {
