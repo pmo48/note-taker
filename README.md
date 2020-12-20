@@ -11,20 +11,24 @@
     
 ## Description
     
-This CLI-based application asks a series of questions about employee information that then generates a webpage based on the employee information.  
+For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed. Therefore, this note taker app helps keep track of all those notes. 
 
 ![homepage](./public/assets/images/home.png)
 ![notes page](./public/assets/images/notes.png)
     
 ## Installation
     
-Simply navigate to "https://note-taker-pbm.herokuapp.com/" 
+- Navigate to "https://note-taker-pbm.herokuapp.com/" 
+- From the home page, click "Get started" to navigate to the notes page. 
+- Add a title and text for your note, then click the Save button in the upper left-hand corner. 
+- Click the "Delete" button (trashcan) to delete a note in the left pane.
     
 ## Usage
     
-Click "Get started" to navigate to the notes page. Add a title and text for your note, then click the Save button in the upper left-hand corner. Click the "Delete" button (trashcan) to delete a note, and click the note itself to edit it. 
-
-Navigate to "https://note-taker-pbm.herokuapp.com/api/notes" to see full notes in JSON format
+- Giving 100% on homework
+- Adding notes
+- Storing notes
+- Deleting notes
     
 ## License
 
@@ -43,8 +47,4 @@ My GitHub username is pmo48 and my profile can be found at github.com/pmo48
 ### What other contact info do you have?
     
 I can be contacted via email at pmoriarty100@gmail.com if you have any additional questions.
-
-### Where can I see a demo?
-
-See a demo tutorial here - https://drive.google.com/file/d/1g6LnK2aVnNFFY0Ps_cxkPpqVgyeqmXwb/view
     
